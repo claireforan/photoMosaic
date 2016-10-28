@@ -1,5 +1,7 @@
 # Photomosaic in Python
 
+See wiki for project overview
+
 ##Apache2 server changes
 VAR/WWW/HTML for server path to html
 
@@ -24,10 +26,10 @@ There are two main areas to our project: processing the images and developing a 
 
 **Things to do:**
 
-- [ ] Optimise our model and programs.
+- [x] Optimise our model and programs.
 
-- [ ] Research Min Cost Flow.
+- [x] Research Min Cost Flow.
 
-- [ ] Introduce a threshold for more accurate colour matches.
+- [x] Introduce a threshold for more accurate colour matches.
 
 - [x] Develop a path/folder for mosaics to be created in.
