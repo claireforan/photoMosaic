@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Image Resizing with Canvas</title>
+		<meta name="description" content="Learn how to resize images using JavaScript and the HTML5 Canvas element using controls, commonly seen in photo editing applications." />
+		<meta name="keywords" content="canvas, javascript, HTML5, resizing, images" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			
+			<div class="content">
+				<header class="codrops-header">
+					<h1>Image Resizing &amp; Cropping <br /><span>with Canvas</span></h1>
+				</header>
+				<div class="component">
+					<div class="overlay">
+						<div class="overlay-inner">
+						</div>
+					</div>
+					
+					<img class="resize-image" src="img/image.jpg" alt="image for resizing">
+					<button class="btn-crop js-crop">Crop</button>
+				</div>
+				
+			</div><!-- /content -->
+			
+			
+		</div> <!-- /container -->
+		<form class = "next" method = "POST" action="form.py">
+					<input type="hidden" value="" id="url">
+					<input type="submit" id="url-submit" disabled>
+					</form>
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/component.js"></script>
+	</body>
+</html>
