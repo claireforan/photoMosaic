@@ -12,10 +12,6 @@ The output of this function is a cost matrix which forms the input of our [Numbe
 [Numberjack](http://numberjack.ucc.ie/) is a modelling package written in [Python](https://www.python.org/) for constraint programming. Our model takes the cost matrix and calculates the cheapest cost using the solver [SCIP](http://scip.zib.de/). Originally, it was based on an assignment problem however, as the size of the problem was increased, the search time grew exponentially. In order to overcome this limitation we allowed duplicates. 
 Our model produces a boolean matrix, which is then flattened into a list of co-ordinates used by the program. The program slots the best matched image (taken from a list of images) against every other match referring to the main photo. 
 
-
-![Numberjack model](https://github.com/claireforan/photoMosaic/blob/master/nj_model.png)
-
-
 ## Image Processing
 [Pillow](https://python-pillow.org/), a fork of Python, is an imaging library that provided us with the image manipulation tools to produce a high quality mosaic image. After experimenting, we concluded that blending the original photo with the mosaic image at a chosen opacity and using edge-enhancement resulted in  clearer definition and higher precision making of the photo mosaic.
 
