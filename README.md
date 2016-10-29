@@ -20,11 +20,11 @@ This approach provides optimal and higher quality solutions, however, a mosaic w
 
 ![Lion before](https://github.com/claireforan/photoMosaic/blob/master/lion1.png)
 
-Figure 2: Original Photo 
+Figure 1: Original Photo 
 
 ![Lion after](https://github.com/claireforan/photoMosaic/blob/master/lion2.jpg)
 
-Figure 3: Photo Mosaic using 1600 images (40x40)
+Figure 2: Photo Mosaic using 1600 images (40x40)
 
 ## Where can you find it?
 MosaicMake is hosted on `143.239.81.202`, a UCC server.
