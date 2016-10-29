@@ -1,4 +1,4 @@
-# What is MosaicMake?
+# MosaicMake
 A photo mosaic is an approximation of an image using a given set of images This problem was formulated from the work previously achieved on [domino portraits](http://pagesperso.g-scop.grenoble-inp.fr/~cambazah/page2/assets/domino_final.pdf) by a team of [Insight](https://www.insight-centre.org/) researchers. Photo mosaics have been generated most often using integer linear programming techniques that provide optimal solutions, but these can be slow and do not scale well to larger mosaics. In this project, we propose an approach that overcomes these limitations and efficiently provides high quality portraits.
 
 ## Introduction
@@ -6,11 +6,6 @@ Our initial proposal combines image processing using combinatorial optimization 
 
 ## Cost Matrix
 A set of images can be simplified into a constrained palette of RGB values which we used to produce a photo mosaic. Similarly, we break down the photo we wish to make a mosaic of into a list of RGB values. In order to find the optimal solution, a combined weighted Euclidean distance formula is used to calculate the colour cost or distances between two RGB values to create an optimal matching between images and tiles of the chosen photo.
-
-![Formula](https://github.com/claireforan/photoMosaic/blob/master/formula.png)
-
-Figure 1: Combined Weighted Euclidean Distance formula
-
 The output of this function is a cost matrix which forms the input of our [Numberjack](http://numberjack.ucc.ie/) model. 
 
 ## Constraints Model
